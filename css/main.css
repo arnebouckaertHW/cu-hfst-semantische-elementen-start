@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body, html{
+    margin:0;
+    padding:0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+body > header{
+    background-color: black;
+    padding: 5px 20px;
+    color: whitesmoke;
+}
+
+main, footer{
+    padding: 50px;
+}
+
+nav ul {
+    list-style: none;    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {    
+    font-size: 1.5em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    width: 20%;    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(250, 225, 0);
+    display: block;
+}
+
+nav a:hover {
+    background-color: #ffee0063;
+}
+
+article > p{
+    font-family: 'PT Serif', serif;
+}
+
+aside {
+    width: 25%;
+    padding:0 5px;
+    margin:0 5px;
+    float: right;    
+    border: 2px solid black;    
+    color: #29627e;
+    text-align: center;
+}
+
+figure{
+    float: left;    
+}
+
+figure > img{
+    width: 250px;
+}
+
+.topLogo{
+    width:300px;
+    float: left;
+    margin-right: 50px;
+}
+
+.siteName{
+    font-weight: normal;    
+}
+
+.releaseInfo{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:small;
+}
+
+.fit{
+    max-width:100%;
+    max-height:100%;    
+}
+
+.clear{
+    clear:both;
+}
+
